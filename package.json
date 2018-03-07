@@ -1,0 +1,27 @@
+{
+  "name": "nomad",
+  "version": "1.0.0",
+  "description": "Nomad responder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developit/express-es6-rest-api.git"
+  },
+  "keywords": [
+    "nomad"
+  ],
+  "author": "Krapesh Naik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developit/express-es6-rest-api/issues"
+  },
+  "homepage": "https://github.com/developit/express-es6-rest-api#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "twitter": "^1.7.1",
+    "unirest": "^0.5.1"
+  }
+}
