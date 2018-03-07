@@ -1,0 +1,17 @@
+{
+    "twitter": {
+        "woeid": "23424848",
+        "keys": {
+            "consumer_key": "euBgduaHgN9mkfZvdnOYPiB2U",
+            "consumer_secret": "sofmYEPtUQ2t76d802kkmoH4VtAq6A7eAJi1M1vIAgmhpWbCmS",
+            "access_token_key": "79570147-nzjIP6KzW3jtQ0doLRRWRLVlYkEPCpR4zKGYPIsoS",
+            "access_token_secret": "zvnBEHao5ljWc2jOQ4dKiqOXHg5XZ64ANme73TkP21mRd"
+        }
+    },
+    "news": {
+        "key": "fc5862e01f834ed09b0cdfcda8f2d248"
+    },
+    "quotes": {
+        "key": "457653"
+    }
+}

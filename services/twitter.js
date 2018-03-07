@@ -2,10 +2,10 @@ const Twitter = require('twitter');
 const twitterConfig = require('../config.json').twitter;
 
 module.exports = res => {
-    const twitterClient = new Twitter(Object.assign({}, twitterConfig));
+    const twitterClient = new Twitter(Object.assign({}, twitterConfig.keys));
 
     twitterClient
-        .get('https://api.twitter.com/1.1/trends/place.json?id=23424848', (error, trends, response) => {
+        .get(`https://api.twitter.com/1.1/trends/place.json?id=${twitterConfig.woeid}`, (error, trends, response) => {
             if (!error) {
                 // Get top 5 topics
                 if (trends[0].trends.length) {
