@@ -1,5 +1,3 @@
-'use strict';
-
 const unirest = require('unirest');
 const quotesConfig = require('../config.json').quotes;
 

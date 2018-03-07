@@ -1,5 +1,3 @@
-'use strict';
-
 const twitter = require('./twitter'),
     news = require('./news'),
     quotes = require('./quotes');

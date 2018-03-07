@@ -1,5 +1,3 @@
-'use strict';
-
 const Twitter = require('twitter');
 const twitterConfig = require('../config.json').twitter;
 
